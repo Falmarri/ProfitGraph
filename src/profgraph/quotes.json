@@ -1,0 +1,12 @@
+- !Position
+  positions:
+  - !Call {expiration: 2010-12-19, position: 2, price: 8.4199999999999999,
+    strike: 320.0, ticker: AAPL}
+  - !Stock {position: 100, price: 314.0, ticker: AAPL}
+  superimposed: false
+  ticker: AAPL
+- !Position
+  positions:
+  - !Stock {position: 100, price: 314.0, ticker: AAPL}
+  superimposed: false
+  ticker: AAPL
